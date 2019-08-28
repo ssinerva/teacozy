@@ -1,0 +1,229 @@
+body {
+font-family: sans-serif, "Helvetica";
+font-size: 15px;
+color: seashell;
+opacity: 0.9;
+text-align: center;
+background-color: white;
+min-height:100%;
+position:relative;
+
+}
+
+
+
+.topnav {
+  border-color:#F2C98C;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  top:0;
+  position: fixed;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.topnav img {
+  display: flex;
+  position: relative;
+  height: 70px;
+}
+
+
+.topnav a {
+  display: inline-block;
+  flex-wrap: wrap;
+  color: grey;
+  position: relative;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+    color: purple;
+    transition: .5s;
+}
+
+
+.background1 {
+  display: block;
+  background-image: url("/Users/David/Desktop/salla stuff/CODING/Tea Cozy/imgs/img-spiced-rum.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+	width: auto;
+	max-width: 100%
+  margin-left: 20px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+}
+
+#Mission {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: white;
+  height: 185px;
+  top: 300px;
+  width: 100%
+}
+
+#Mission h1 {
+  display: flex;
+	max-width: 100%;
+height: auto;
+margin-bottom: 30px;
+  position: relative;
+color: darkred;
+}
+
+#Mission h1:hover {
+	display: flex;
+  color: purple;
+  transition: 2s;
+}
+
+
+#Mission h3 {
+  font-family: arial;
+  font-weight: lighter;
+  display: flex;
+  position:absolute;
+  float: center;
+  margin-top: 60px;
+  color: darkgrey;
+  letter-spacing: 1px;
+}
+
+
+.teainfo {
+width:auto;
+height: 100%;
+max: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+position: relative;
+  top: 600px;
+bottom: 50px;
+justify-content: center;
+top: 650px;
+}
+
+
+.teainfo img {
+  max-height: 350px;
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+
+   .hovereffect {
+     width: 100%;
+     height: 100%;
+     float: left;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     cursor: default;
+   }
+
+   .hovereffect .overlay {
+     position: absolute;
+		 align-items: center;
+     overflow: hidden;
+     width: 80%;
+     height: 80%;
+     left: 70px;
+     top: 10%;
+     border-bottom: 1px solid #FFF;
+     border-top: 1px solid #FFF;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: scale(0,1);
+     -ms-transform: scale(0,1);
+     transform: scale(0,1);
+   }
+
+   .hovereffect:hover .overlay {
+     opacity: 1;
+     filter: alpha(opacity=100);
+     -webkit-transform: scale(1);
+     -ms-transform: scale(1);
+     transform: scale(1);
+   }
+
+   .hovereffect img {
+     display: block;
+     position: relative;
+     -webkit-transition: all 0.35s;
+     transition: all 0.35s;
+		 align-self: center;
+		 left: 50px;
+   }
+
+   .hovereffect:hover img {
+     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+     filter: brightness(0.6);
+     -webkit-filter: brightness(0.6);
+   }
+
+   .hovereffect h2 {
+     text-transform: uppercase;
+     text-align: center;
+     position: relative;
+     font-size: 17px;
+     background-color: transparent;
+     color: #FFF;
+     padding: 1em 0;
+     opacity: 0;
+     filter: alpha(opacity=0);
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(0,-100%,0);
+     transform: translate3d(0,-100%,0);
+   }
+
+   .hovereffect a, .hovereffect p {
+     color: #FFF;
+     padding: 1em 0;
+     opacity: 0;
+     filter: alpha(opacity=0);
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(0,100%,0);
+     transform: translate3d(0,100%,0);
+   }
+
+   .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+     opacity: 1;
+     filter: alpha(opacity=100);
+     -webkit-transform: translate3d(0,0,0);
+     transform: translate3d(0,0,0);
+   }
+
+
+
+	 #sticky {
+	   width:100%;
+	   height:30px;
+	   padding-top:20px;
+	   padding-left: 20px;
+	   background:#F5B7B1;
+	   color:white;
+	   font-size:14px;
+	   text-align:center;
+	   position:static;
+	   bottom:0;
+	   left:0;
+	 }

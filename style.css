@@ -1,0 +1,185 @@
+body {
+font-family: sans-serif, "Helvetica";
+font-size: 15px;
+color: seashell;
+opacity: 0.9;
+text-align: center;
+background-color: white;
+
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  top:0;
+  position: fixed;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.topnav img {
+  display: flex;
+  position: relative;
+  height: 70px;
+}
+
+
+.topnav a {
+  display: inline-block;
+  flex-wrap: wrap;
+  color: grey;
+  position: relative;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+    color: purple;
+    transition: .5s;
+}
+
+
+
+.background1 {
+  display: block;
+  background-image: url("/Users/David/Desktop/salla stuff/CODING/Tea Cozy/imgs/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+}
+
+#Mission {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: white;
+  height: 140px;
+  top: 300px;
+  width: 100%
+}
+
+#Mission h1 {
+  display: flex;
+  position: relative;
+color: lightpink;
+}
+
+#Mission h1:hover {
+  color: purple;
+  transition: 2s;
+}
+
+
+#Mission h3 {
+  display: flex;
+  position:absolute;
+  float: center;
+  margin-top: 60px;
+  color: lightpink;
+  letter-spacing: 1px;
+}
+
+
+#Featured{
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+
+#Featured h1 {
+  color: lightpink;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+#Featured h1:hover {
+  color: purple;
+  transition: 2s;
+}
+
+
+#Featured h3{
+
+  color: lightpink;
+  display: flex;
+  position:absolute;
+  float: center;
+  margin-top: 60px;
+}
+
+a {
+text-decoration: none!important;
+color: lightpink}
+
+
+a:hover {
+  color: purple;
+  transition: 2s;
+}
+
+.images {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: lightpink;
+
+}
+
+
+#Locations{
+  height: 100%;
+  width: auto;
+  position: relative;
+  color: lightpink;
+  margin-top: 200px;
+}
+
+#Locations h1:hover {
+  color: purple;
+  transition: 2s;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  margin: 90px;
+}
+
+
+
+#sticky {
+  width:100%;
+  height:30px;
+  padding-top:20px;
+  padding-left: 20px;
+  background:#F5B7B1;
+  color:white;
+  font-size:14px;
+  text-align:center;
+  position:static;
+  bottom:0;
+  left:0;
+}
